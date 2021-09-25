@@ -1,3 +1,6 @@
+.BodyFont{
+    font-family: 'Nunito', sans-serif;
+}
 .BackgroundColor{
     background-color: #ffc0cb;
 }
@@ -8,6 +11,39 @@
 .NavBackground a:hover, a:focus{
     color: #ffc0cb !important;
     text-decoration: none;
+}
+.NavBackground button:hover, button:focus{
+    color: #ffc0cb !important;
+    text-decoration: none;
+}
+.ModalButton{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    
+}
+.ModalBodyColor{
+    background: black;
+}
+.ModalHeaderColor{
+    background: #ffc0cb;
+}
+.ModalFooterColor{
+    background: #ffc0cb;
+}
+.ModalButton button:hover{
+    color: #ffc0cb;
+}
+.ModalFontColor{
+    color: #ffc0cb;
+    font-weight: bold;
+}
+.ModalButtonColor{
+    color: #ffc0cb;
+}
+.ModalFooterButton{
+    background-color: white;
+    color: #ffc0cb;
 }
 .navbar-toggler-icon1 {
     background-image: url(../image/toggler.svg);
@@ -44,3 +80,35 @@
     color: black;
     text-align: center;
 }
+.Banner{
+    height: 70vh;
+}
+.Blank{
+    background-color: transparent;
+}
+.CardColor{
+    background-color: transparent;
+}
+.TestimonyBanner{
+    height: 50vh;
+}
+@media only screen and (max-width: 400px) {
+    .Banner {
+        height: 35vh;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .Banner {
+        height: 35vh;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .Banner {
+        height: 35vh;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .Banner {
+        height: 35vh;
+    }
+  }
